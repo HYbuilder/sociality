@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Profile</title>
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./fonts/iconfont.css">
+	<link rel="stylesheet" href="./css/profile.css">
+
+	<meta name="viewport" content="width=640,target-densitydpi=device-dpi,maximum-scale=1.0,user-scalable=no"/>
+	<script type="text/javascript">
+    function setWidth(e){if(/Andriod/i.test(navigator.userAgent)){var f,d=window.innerWidth;(d!=e)&&(f=d/e),document.addEventListener("DOMContentLoaded",function(){var a=document.getElementsByTagName("body")[0];a.style.webkitTransformOrigin="left top";a.style.webkitTransform="scale("+f+")"},!1)}}setWidth(640);
+    </script>
+</head>
+<body>
+	<div class="header">
+		<h2><a href="freebee.html"><i class="iconfont">&#xe617;</i></a>@JessA69</h2>
+	</div>
+	<div class="section_1">
+		<div class="section_1box">
+			<img src="images/bg_1.png" alt="">
+			<a href=""><img src="images/tx_1.png"></a>
+			<div class="tx">
+				<h4>Jesica Alba</h4>
+				<div class="address">
+					<a href=""><i class="iconfont">&#xe62e;</i></a>
+					<a href=""><span>Los Angeles, CA</span></a>
+				</div>
+				<ul>
+					<li class="left white"></li>
+					<li class="right"></li>
+				</ul>
+			</div>
+			<div class="fans clearfix">
+				<a href=""><div>
+					<h4>Followers</h4>
+					<p>4017</p>
+				</div></a>
+				<a href=""><div>
+					<h4>Fllowing</h4>
+					<p>54</p>
+				</div></a>
+				<a href=""><div>
+					<h4>Photos</h4>
+					<p>153</p>
+				</div></a>
+				<a href=""><div>
+					<i class="iconfont">&#xe726;</i>
+					<span>Unfollow</span>
+				</div></a>
+			</div>
+		</div>
+	</div>
+	<div class="section_2">
+		<a href=""><img src="images/img_1.png" alt=""></a>
+		<a href=""><img src="images/img_2.png" alt=""></a>
+		<a href=""><img src="images/img_3.png" alt=""></a>
+		<a href=""><img src="images/img_4.png" alt=""></a>
+		<a href=""><img src="images/img_5.png" alt=""></a>
+		<a href=""><img src="images/img_6.png" alt=""></a>
+	</div>
+
+	<div class="footer clearfix">
+		<a href=""><i class="iconfont">&#xe603;</i></a>
+		<a href=""><i class="iconfont">&#xe601;</i></a>
+		<a href=""><i class="iconfont">&#xe618;</i></a>
+		<a href=""><i class="iconfont">&#xe841;</i></a>
+		<a href=""><i class="iconfont">&#xe646;</i></a>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script type="text/javascript">
+		var showright = function(){
+    		$('.right').toggleClass('white',true);
+    		$('.left').toggleClass('white',false);
+    	}
+    	var showleft = function(){
+    		$('.right').toggleClass('white',false);
+    		$('.left').toggleClass('white',true);
+    	}
+    	
+    	$(document).ready(function(){
+    		$('.right').click(showright);
+    		$('.left').click(showleft);
+		})
+	</script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+body{
+	background: #85d2c5;
+}
+
+header h2{
+	font-size: 120px;
+	color: #fff;
+	text-align: center;
+	margin-top:140px;
+	margin-bottom: 100px;
+	font-weight: bold;
+}
+
+
+section .email{
+	width: 80%;
+	height: 60px;
+	border-bottom: 2px solid #77bdb1;
+	margin:0 auto 40px;
+}
+section .email i{
+	font-size: 40px;
+	color: #fff;
+	float: left;
+
+}
+section .email input{
+	font-size: 30px;
+	line-height: 40px;
+	color: #000;
+	opacity: 0.4;
+	border:none;
+	background: none;
+	outline: none;
+}
+::-webkit-input-placeholder{
+	color: #000;
+	opacity: 0.4;
+}
+
+
+section .pass{
+	width: 80%;
+	height: 60px;
+	border-bottom: 2px solid #77bdb1;
+	margin:0 auto 40px;
+}
+section .pass i{
+	font-size: 40px;
+	color: #fff;
+	float: left;
+
+}
+section .pass input{
+	font-size: 30px;
+	line-height: 40px;
+	color: #000;
+	opacity: 0.4;
+	border:none;
+	background: none;
+	outline: none;
+}
+
+
+section .login{
+	width: 60%;
+	height: 70px;
+	margin:0 auto;
+	text-align: center;
+	background: #705d76;
+	border-bottom: 4px solid #5c4d61;
+	border-radius: 3px;
+}
+section .login a{
+	display: block;
+	font-size: 30px;
+	color: #fff;
+	line-height: 70px;
+	height: 70px;
+	font-weight: bold;
+}
+
+section .forget{
+	margin:40px auto 170px auto;
+}
+section .forget a{
+	font-size: 24px;
+	color: #fff;
+	line-height: 24px;
+}
+
+
+footer{
+	background: #6aa89e;
+	padding: 30px 0;
+}
+
+footer .facebook{
+	width: 60%;
+	height: 70px;
+	background: #94c0b9;
+	border:3px solid #fff;
+	border-radius: 3px;
+	margin:10px auto 30px;
+	position: relative;
+}
+footer .facebook i{
+	font-size: 40px;
+	color: #fff;
+	line-height: 70px;
+	position:absolute;
+	left: 30px;
+}
+footer .facebook h4{
+	color: #fff;
+	font-size: 24px;
+	line-height: 70px;
+	height: 70px;
+	text-align: center;
+}
+footer .sign{}
+footer .sign a{
+	color: #fff;
+	font-size: 24px;
+	line-height: 24px;
+	text-decoration:underline;
+}
